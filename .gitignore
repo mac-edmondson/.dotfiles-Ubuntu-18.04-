@@ -1,0 +1,16 @@
+*
+
+!.gitignore
+!.zshrc
+!.vimrc
+!.tmux.conf
+
+!.config/
+.config/*
+!.config/nvim
+.config/nvim/*
+!.config/nvim/init.vim
+
+!gitdoc/
+gitdoc/*
+!gitdoc/readme.md
