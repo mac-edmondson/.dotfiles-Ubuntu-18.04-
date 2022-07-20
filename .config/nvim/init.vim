@@ -49,5 +49,6 @@ nnoremap <C-p> <cmd>Telescope find_files<cr>
 nnoremap <leader>tb <cmd>Telescope buffers<cr>
 
 "" Colorscheme customization
-colorscheme palenight 
-let g:airline_theme='palenight'
+colorscheme gruvbox 
+let g:airline_theme='gruvbox'
+highlight Normal guibg=none ctermbg=none

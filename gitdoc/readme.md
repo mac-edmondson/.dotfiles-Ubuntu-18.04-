@@ -1,6 +1,6 @@
-## Mac Edmondson's Dot Files
+# Mac Edmondson's Dot Files
 
-# Currently Included:
+### Currently Included:
   * vim
   * nvim
   * tmux
