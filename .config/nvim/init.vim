@@ -52,3 +52,7 @@ nnoremap <leader>tb <cmd>Telescope buffers<cr>
 colorscheme gruvbox 
 let g:airline_theme='gruvbox'
 highlight Normal guibg=none ctermbg=none
+highlight LineNr ctermfg=977 guifg=#7c6f64
+highlight LineNrBelow ctermfg=243 guifg=#7c6f64
+highlight LineNrAbove ctermfg=243 guifg=#7c6f64
+"LineNr         xxx ctermfg=243 guifg=#7c6f64
