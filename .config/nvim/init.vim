@@ -1,3 +1,6 @@
+syntax enable
+filetype plugin indent on
+
 "" Key Mappings
 "Leader
 let mapleader = " "
@@ -10,8 +13,8 @@ noremap j h
 "Leader Mappings
 nnoremap <leader>; $
 nnoremap <leader>j ^
-nnoremap <leader>gt <cmd>bp<cr>
-nnoremap <leader>gT <cmd>bn<cr>
+nnoremap <leader>gt <cmd>bn<cr>
+nnoremap <leader>gT <cmd>bp<cr>
 
 
 "" Settings
@@ -39,6 +42,18 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'gruvbox-community/gruvbox'
 Plug 'drewtempelmeyer/palenight.vim'
+
+" nvim-cmp
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+
+"luasnip
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
 call plug#end()
 
 "Airline
