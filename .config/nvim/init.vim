@@ -34,6 +34,8 @@ set incsearch
 
 
 "" Plugins
+" To install plugins with vim plug, do the following:
+"   - :PlugInstall
 "vim-plug
 call plug#begin('~/.vim/plugged')
 Plug 'nvim-lua/plenary.nvim'
@@ -62,6 +64,7 @@ let g:airline#extensions#tabline#enabled = 1
 "Telescope
 nnoremap <C-p> <cmd>Telescope find_files<cr>
 nnoremap <leader>tb <cmd>Telescope buffers<cr>
+nnoremap <leader>tp <cmd>Telescope registers<cr>
 
 "" Colorscheme customization
 colorscheme gruvbox 
